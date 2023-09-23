@@ -1,0 +1,8 @@
+version: '2.3'
+services:
+  cableclub:
+    build: ./CableClub
+    restart: "always"
+    ports:
+      - "9999:9999"
+
